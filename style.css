@@ -1,0 +1,46 @@
+
+
+:root{
+    --primary-color: #9CA3AF;
+    --secondary-color: #5b54fa;
+    --third-color: white; 
+}
+
+body{
+    background-color: var(--primary-color);
+    height: 100vh;
+    max-width: 50%;
+    margin:auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h1,h2{
+    color: black;
+}
+
+.container{
+    padding: 20px;
+}
+.container input{
+    height: 0rem;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+
+}
+
+.container button{
+    margin:auto;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    color: black;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+#output-div{
+    padding-top: 0.2rem;
+    font-size:1.8rem;
+    font-weight: bold;
+}
